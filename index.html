@@ -1,0 +1,749 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- cdn link  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+    <!-- bootsrtap link  -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+    <!-- css file link  -->
+    <link rel="stylesheet" href="./taxi.css">
+
+    <!-- responsive  -->
+    <link rel="stylesheet" href="./responsive.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <!-- nav bar start  -->
+    <Header class="nav-wrapper ">
+
+        <nav style="height: 90px;" class="navbar navbar-expand-lg bg-black   fixed-top ">
+            <div class="container ">
+                <a class="navbar-brand" href="#">
+                    <img src="./47b58909-54f3-48fe-9b26-cb41e92211fb/logo-inner.png" class="img-fluid" alt="">
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <!-- <span class="navbar-toggler-icon"></span> -->
+                    <i class="fa-solid fa-bars menu-btn" ></i>
+                </button>
+                <div class="collapse navbar-collapse justify-content-end  " id="navbarNav">
+                    <ul class="navbar-nav  navbar-item gap-2 ms-auto ">
+                        <li class="nav-item dropdown">
+                            <a href="#" class="nav-link active-home " data-bs-toggle="dropdown">HOME  <i class="fa-solid fa-angle-right angle"></i>   
+                            </a>
+                            <ul  class="dropdown-menu dropdown-menu-White  text-warning">
+                                <li><a href="#" class="dropdown-item">Homepage 1</a></li>
+                                <li><a href="#" class="dropdown-item">Homepage 2</a></li>
+                                <li><a href="#" class="dropdown-item">Homepage 3</a></li>
+                            </ul>
+                           </li>
+                       
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">GET TAXI</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">SERVICES</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a href="#" class="nav-link " data-bs-toggle="dropdown">OUR BLOG 
+                                <i class="fa-solid fa-angle-right angle"></i>
+                            </a>
+                            <ul class="dropdown-menu dropdown-menu-White">
+                                <li><a href="#" class="dropdown-item">Blog one column</a></li>
+                                <li><a href="#" class="dropdown-item">Blog two columns</a></li>
+                                <li><a href="#" class="dropdown-item">Blog three columns</a></li>
+                            </ul>
+                           </li>
+                        <li class="nav-item dropdown">
+                            <a href="#" class="nav-link " data-bs-toggle="dropdown">GALLERY
+                                <i class="fa-solid fa-angle-right angle"></i>
+                            </a>
+                            <ul class="dropdown-menu dropdown-menu-White">
+                                <li><a href="#" class="dropdown-item">Gallery-2 columns</a></li>
+                                <li><a href="#" class="dropdown-item">Gallery-3 columns</a></li>
+                                <li><a href="#" class="dropdown-item">Gallery-4 columns</a></li>
+                            </ul>
+                           </li>
+                        <li class="nav-item dropdown">
+                            <a href="#" class="nav-link " data-bs-toggle="dropdown">SHOP
+                                <i class="fa-solid fa-angle-right angle"></i>
+                            </a>
+                            <ul class="dropdown-menu dropdown-menu-White">
+                                <li><a href="#" class="dropdown-item">Shop</a></li>
+                                <li><a href="#" class="dropdown-item">Cart</a></li>
+                                <li><a href="#" class="dropdown-item">Checkout</a></li>
+                                <li><a href="#" class="dropdown-item">My account</a></li>
+                            </ul>
+                           </li>
+                        <li class="nav-item dropdown">
+                            <a href="#" class="nav-link " data-bs-toggle="dropdown">CONTACT
+                                <i class="fa-solid fa-angle-right angle"></i>
+                            </a>
+                            <ul class="dropdown-menu dropdown-menu-White">
+                                <li><a href="#" class="dropdown-item">Contacts</a></li>
+                                <li><a href="#" class="dropdown-item">Contacts2</a></li>
+                                
+                            </ul>
+                           </li>
+                        <li class="nav-item dropdown">
+                            <a href="#" class="nav-link " data-bs-toggle="dropdown">PAGES
+                                <i class="fa-solid fa-angle-right angle"></i>
+                            </a>
+                            <ul class="dropdown-menu dropdown-menu-White">
+                                <li><a href="#" class="dropdown-item">Typography</a></li>
+                                <li><a href="#" class="dropdown-item"> Form Elements</a></li>
+                                <li><a href="#" class="dropdown-item">shortCodes</a></li>
+                                <li><a href="#" class="dropdown-item">Lists</a></li>
+                                <li><a href="#" class="dropdown-item">Testimonial</a></li>
+                                <li><a href="#" class="dropdown-item">Team</a></li>
+                            </ul>
+                           </li>
+                        <li class="nav-item">
+                            <a class="navbar-brand" href="#">
+                                <i class="fa-solid fa-cart-shopping"></i>
+                            </a>
+                           
+                        </li>
+                       
+                    </ul>
+                   
+                </div>
+            </div>
+        </nav>
+        <video  autoplay loop muted
+         src="./47b58909-54f3-48fe-9b26-cb41e92211fb/istockphoto-101292489-640_adpp_is.mp4">
+
+          </video>
+    </Header>
+
+            <!-- navbar end  -->
+
+          
+
+            <!-- form start  -->
+            <section  class="form justify-content-center">
+                <h1 >GET TAXI  <span class="text-warning">ONLINE</span></h1>
+                
+                    <div class=" car-img my-4 d-flex">
+                        <a href="#" class=" px-2 pt-4 activecar-img ">
+                          <img src="./47b58909-54f3-48fe-9b26-cb41e92211fb/icon-car-1.png"  alt="">
+                          <p>STANDART</p>
+                        </a>
+                        <a href="#" class=" px-2 pt-4 ">
+                          <img src="./47b58909-54f3-48fe-9b26-cb41e92211fb/icon-car-2.png" alt="">
+                          <P>BUSINESS</P>
+                        </a>
+                        <a href="#" class=" px-2 pt-4 ">
+                          <img src="./47b58909-54f3-48fe-9b26-cb41e92211fb/icon-car-3.png"alt="">
+                          <P>VIP</P>
+                        </a>
+                        <a href="#" class="px-2 pt-4 ">
+                          <img src="./47b58909-54f3-48fe-9b26-cb41e92211fb/icon-car-4.png" alt="">
+                          <P>BUS-MINIVAN</P>
+                        </a>
+                      </div>
+        <form class="form-value mt-6 " action="">       
+      <div class="col-md-10 d-flex m-4 formz">
+        <label for="validationCustom01" class="form-label "></label>
+        <input type="text" class="form-control" id="validationCustom01" value="From Address..." required> 
+         <label for="validationCustom02" class="form-label m-2"></label>
+            <input type="text" class="form-control" id="validationCustom02" value="T0..." required>
+           </div>
+
+
+      <div class="col-md-10 d-flex m-4 formz1">
+        <label for="validationCustom03" class="form-label"></label>
+        <input type="text" class="form-control" id="validationCustom03" value="Phone Number" required>
+            <label for="validationCustom05" class="form-label m-2"></label>
+            <input type="text" class="form-control" id="validationCustom05" value="Date and Time">
+        </div>
+
+      
+      
+    </form>
+ 
+    <div class="col-12  btn-tab">
+        <button class="btn btn-value btn-warning  " type="submit">GET TAXI</button>
+      </div>
+             </section>
+
+      <!-- ! form end  -->
+
+        <!-- nav footer  -->
+
+        <section class="navbar2 bg-warning "> 
+ 
+            <ul class="navbarlink d-flex "> 
+                 
+                <li style="font-weight: 900; font-size: 28px; margin-top: 47px;"  class=" navbarlink2 navlink1"> 
+                    <i  class="   fa-solid fa-phone-flip  "></i> 
+                     
+                    800-5-800</li> 
+                 
+                <li class="navbarlink2"> 
+                    <i class="fa-solid fa-taxi"></i> 
+                    GETTAXIPARK</li> 
+                
+                <li class="navbarlink2 navlink2"> 
+                    <i class="fa-sharp fa-solid fa-location-dot"></i> 
+                    43-2-ND AVENUE,NEWTORK,29004-7153</li> 
+                 
+                <li class="navbarlink2 "> 
+                    <button class="btn-1   btn-1-hover">OUR TARIFFS</button> 
+                    </li> 
+            </ul> 
+     
+        </section>
+
+
+        <!-- nav footer end -->
+
+             <!-- card start -->
+ 
+            <div class="cards"> 
+                <span  class="text-warning">WELCOME</span>
+                <h1 class=" text-service">OUR SERVICES</h1>
+                <div class="row row-cols-1 row-cols-md-4 g-0 border-0">
+                <div class="col">
+                  <div class="card  ">
+                    <img src="./47b58909-54f3-48fe-9b26-cb41e92211fb/services-1.png" class="card-img-top" alt="...">
+                    <div class="card-body ">
+                      <h5 class="card-title summary">RAPID CITY TRANSFER</h5>
+                      <p class="card-text">We will bring you quickly and  comfortably to anywhere in  your city</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="col">
+                  <div class="card ">
+                    <img class="justify-content-center"  src="./47b58909-54f3-48fe-9b26-cb41e92211fb/services-2.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">BOOKING A HOTEL</h5>
+                      <p class="card-text">If you need a comfortable hotel, our operators will book it for you, and take a taxi to the address</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="col">
+                  <div class="card ">
+                    <img src="./47b58909-54f3-48fe-9b26-cb41e92211fb/services-3.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">AIRPORT TRANSFER</h5>
+                      <p class="card-text">We will bring you quickly and comfortably to anywhere in your city</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="col">
+                  <div class="card h-">
+                    <img src="./47b58909-54f3-48fe-9b26-cb41e92211fb/services-4.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">BAGGAGE TRANSPORT</h5>
+                      <p class="card-text">If you need a comfortable hotel, our operators will book it for you, and take a taxi to the address</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            
+            </div>
+
+      <!-- card end -->
+
+        <!-- tariff start-->
+        <section data-vc-full-width="true" data-vc-full-width-init="false" 
+      class="vc_section tariffs-block section2  "> 
+      <div class="vc_row wpb_row vc_row-fluid"> 
+          <div class="wpb_column vc_column_container vc_col-sm-12"> 
+              <div class="vc_column-inner"> 
+                  <div class="wpb_wrapper"> 
+                      <div class="heading2 align-center text-center" 
+                          id="like_sc_header_96556351"> 
+                          <h4 class=" text-warning ">SEE OUR</h4> 
+                          <h2>TARIFFS</h2> 
+                      </div> 
+                  </div> 
+              </div> 
+          </div> 
+      </div> 
+      <div class="vc_row wpb_row vc_row-fluid d-flex mt-5 text-center viptaxi "> 
+          <div  class="wpb_column vc_column_container vc_col-sm-6 vc_col-lg-3 viptaxi2 "> 
+              <div class="vc_column-inner"> 
+                  <div class="wpb_wrapper"> 
+                      <div class="tariff-item matchHeight "> 
+                          <div class="image"> 
+                              <img class="mt-4" src="./47b58909-54f3-48fe-9b26-cb41e92211fb/tariff-1.png" 
+                                  class="full-width" alt="Standart"> 
+                          </div> 
+                          <br> 
+                          <h4 style="margin-top: 35px;"  >STANDART</h4> 
+                          <p style="margin-top: 12px;"  >Standard sedan for a drive around the city at your service 
+                          </p> 
+                          <div class="price"> 
+                              $2<span>/km </span> 
+                          </div> 
+                      </div> 
+                  </div> 
+              </div> 
+          </div> 
+          <div class="wpb_column vc_column_container vc_col-sm-6 vc_col-lg-3  viptaxi3 "> 
+              <div class="vc_column-inner"> 
+                  <div class="wpb_wrapper"> 
+                      <div class="tariff-item matchHeight "> 
+                          <div class="image"> 
+                              <img class="mt-4"  src="./47b58909-54f3-48fe-9b26-cb41e92211fb/tariff-2.png" 
+                                  class="full-width" alt="Business"> 
+                          </div> 
+                          <br> 
+                          <h4 class="my-3" >BUSINESS</h4> 
+                          <p>Standard sedan for a drive around
+                             the city at your service 
+                          </p> 
+                          <div class="price"> 
+                              $2,7<span>/km </span> 
+                          </div> 
+                      </div> 
+                  </div> 
+              </div> 
+          </div> 
+          <div class="wpb_column vc_column_container vc_col-sm-6 vc_col-lg-3 viptaxi4"> 
+              <div class="vc_column-inner"> 
+                  <div class="wpb_wrapper"> 
+                      <div class="tariff-item matchHeight vip"> 
+                          <div class="image"> 
+                              <img class="mt-4" src="./47b58909-54f3-48fe-9b26-cb41e92211fb/tariff-3.png" 
+                                  class="full-width" alt="VIP"> 
+                          </div> 
+                          <br> 
+                          <h4 class="my-3" >VIP</h4> 
+                          <p>Standard sedan for a drive around the city at your service. 
+                          </p> 
+                          <div class="price"> 
+                              $5<span>/km </span> 
+                          </div> 
+                      </div> 
+                  </div> 
+              </div> 
+          </div> 
+          <div class="wpb_column vc_column_container vc_col-sm-6 vc_col-lg-3 viptaxi5"> 
+              <div class="vc_column-inner"> 
+                  <div class="wpb_wrapper"> 
+                      <div class="tariff-item matchHeight "> 
+                          <div class="image2 "> 
+                              <img class="mt-4" src="./47b58909-54f3-48fe-9b26-cb41e92211fb/tariff-4.png" 
+                                  class="full-width " alt="Bus-minivan">
+                                </div> 
+                           
+                                <h4  class="my-3" >BUS MINIVAN</h4> 
+                                <p>Standard sedan for a drive around the city at your service 
+                                </p> 
+                                <div class="price"> 
+                                    $4.5<span>/km </span> 
+                                </div> 
+                            </div> 
+                        </div> 
+                    </div> 
+                </div> 
+            </div> 
+        </section>
+
+        
+      <!-- tariff end  -->
+        <!-- app started -->
+
+        <section id="Apps">
+            <div class="App-header">
+                <h4 class="text-warning fw-bolder m-0">GET MORE BENEFITS</h4>
+                <h1 class="fw-bold m-0 text-white">DOWNLOAD THE APP</h1>
+            </div>
+            <div class="App-content row justify-content-center align-items-center gy-1 gx-2">
+                <div class="App-class appcc col-md-3">
+                    <div class="app-1">
+                        <div class="nmb">
+                            <h2 class="bg-warning">.01</h2>
+                        </div>
+                        <div class="appdata">
+                            <span class="text-warning fs-4 fw-bold">FAST BOOKING</span>
+                            <p class="text-white fs-5">Nam ac ligula congue, interdum enim sit amet, fermentum nisi.</p>
+                        </div>
+                    </div>
+                    <div class="app-1">
+                        <div class="nmb">
+                            <h2 class="bg-warning">.02</h2>
+                        </div>
+                        <div class="appdata ">
+                            <span class="text-warning fs-4 fw-bold">EASY TO USE</span>
+                            <p class="text-white fs-5">Orci varius natoque penatibus et magnis dis parturient montes,
+                                nascetur ridiculus mus.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="App-class app-mp col-md-4">
+                    <div class="appic">
+                        <img src="./47b58909-54f3-48fe-9b26-cb41e92211fb/app-google-150x50.png" alt="">
+                        <img src="./47b58909-54f3-48fe-9b26-cb41e92211fb/app-apple-150x53.png" alt="">
+                    </div>
+                </div>
+                <div class="appc col-md-4">
+                    <div class="app-2">
+    
+                        <div class="appdata1">
+                            <span class="text-warning fs-4 fw-bold">GPS SEARCHING</span>
+                            <p class="text-white fs-5">Ut elementum tincidunt erat vel ornare. Suspendisse ac felis non diam
+                                pretium.</p>
+                        </div>
+                        <div class="nmb">
+                            <h2 class="bg-warning">.03</h2>
+                        </div>
+                    </div>
+                    <div class="app-2">
+    
+                        <div class="appdata1">
+                            <span class="text-warning fs-4 fw-bold">BONUSES FOR RIDE</span>
+                            <p class="text-white fs-5">Phasellus l et porta tortor dignissim at. Pellentesque gravida tortor
+                                at euismod mollis.</p>
+                        </div>
+                        <div class="nmb">
+                            <h2 class="bg-warning">.04</h2>
+                        </div>
+                    </div>
+                </div>
+    
+        </section>
+
+
+        <!-- app end  -->
+    
+    <!-- drive start-->
+   
+    <div class="heading  heading-large align-left text-warning" id="like_sc_header_1863890432">
+        <h4>For Drivers</h4>
+        <h2>DO YOU WANT TO EARN WITH UP?</h2>
+    </div>
+    <div class="vc_row wpb_row vc_inner vc_row-fluid">
+        <div class="wpb_column vc_column_container vc_col-sm-6">
+            <div class="vc_column-inner">
+                <div class="wpb_wrapper">
+                    <div class="wpb_text_column wpb_content_element ">
+                        <div class="wpb_wrapper story">
+                            <p>Quisque sollicitudin feugiat risus, eu posuere ex euismod eu. Phasellus hendrerit, massa efficitur dapibus pulvinar, sapien eros sodales ante, euismod aliquet nulla metus a mauris.</p>
+                        </div>
+                    </div>
+                    <div class="wpb_text_column wpb_content_element list-first d-flex">
+                        <div class="wpb_wrapper list1">
+                            <ul class="check two-col strong ">
+
+                                <li> <span><i class="fa-solid fa-check"></i></span>Luxury cars</li>
+                                <li><span><i class="fa-solid fa-check"></i></span>No fee</li>
+                                <li><span><i class="fa-solid fa-check"></i></span>Weekly payment</li>
+                                
+                            </ul>
+                        </div>
+                        <div class="wpb_wrapper list2">
+                            <ul class="check two-col strong ">
+
+                                <li><span><i class="fa-solid fa-check"></i></span>Fixed price</li>
+                                <li><span><i class="fa-solid fa-check"></i></span>Good application</li>
+                                <li><span><i class="fa-solid fa-check"></i></span>Stable orders</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="vc_empty_space" style="height: 20px">
+                        <span class="vc_empty_space_inner"></span>
+                    </div>
+                    <div class="btn-wrap align-left">
+                        <a href="" class="btn  btn-lg align-left fs-4 ">BECOME A DRIVER</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+     
+        <!-- drive end -->
+
+
+        <!-- !---border start--- -->
+        <div class="one"></div>
+
+        <!-- !----border end---- -->
+
+       
+
+        <!-- !---teatimonials start--- -->
+
+        <section id="testimonials">
+            <h1 class="text-center text-warning ">HAPPY CLIENT'S</h1>
+            <h2 class="text-center text-black ">TESTIMONIAL</h2>
+            <div class="testimonial-wrapper">
+        
+                
+              <div id="carouselExampleFade" class="carousel slide carousel-dark" data-bs-ride="carousel">
+                <div class="carousel-inner">
+                    
+                  <div class="carousel-item active" data-bs-interval="1000">
+                  <div class="row gap-5 ">
+                    <div class="col-md-4 col-lg-3 offset-1 testimonial-one  ">
+                        <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Itaque, fugiat!
+                            Lorem ipsum dolor sit amet consectetur 
+                            adipisicing elit. Repellendus reprehenderit, reiciendis possimus culpa enim 
+                            architecto numquam! Culpa, tempore. Blanditiis, eum?
+                        </p>
+                        <div class="img1">
+                            <i class="fa-solid fa-quote-left fs-1 text-center"></i> <br>
+                           <span>Patrick James</span><br>
+                            <img src="./47b58909-54f3-48fe-9b26-cb41e92211fb/client-1.jpg" alt="">
+                        </div>
+                            
+                    </div> 
+                     <div class="col-md-4 col-lg-3 testimonial-one d-none d-sm-inline-block">
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium consectetur repudiandae 
+                            labore cumque accusantium fugit eius, fugiat nam veritatis minima earum, eveniet esse amet ut repellendus totam adipisci 
+                            reiciendis quis! Commodi sed, 
+                          
+                            
+                        </p>
+
+                        <div class="img1">
+                            <i class="fa-solid fa-quote-left fs-1 text-center"></i> <br>
+                            <span>Patrick James</span><br>
+                            <img src="./47b58909-54f3-48fe-9b26-cb41e92211fb/client-4.jpg" alt="">
+                        </div>
+                     </div>
+                    <div class="col-md-4 col-lg-3 testimonial-one d-none d-sm-inline-block">
+                        <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Itaque, fugiat!
+                            Lorem ipsum dolor sit amet consectetur 
+                            adipisicing elit. Repellendus reprehenderit, reiciendis possimus culpa enim 
+                            architecto numquam! Culpa, tempore. 
+                            </p>
+                               <br>
+                            <div class="img1">
+                                <i class="fa-solid fa-quote-left fs-1 text-center"></i> <br>
+                                <span>Patrick James</span><br>
+                                <img src="./47b58909-54f3-48fe-9b26-cb41e92211fb/client-5.jpg" alt="">
+                            </div>
+                    </div> 
+                  </div>
+                  </div>
+                  <div class="carousel-item " data-bs-interval="1000">
+                    <div class="row gap-5 ">
+                      <div class="col-md-4 col-lg-3 offset-1 testimonial-one d-sm-inline-block d-block ">
+                        <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Itaque, fugiat!
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus reprehenderit, reiciendis possimus culpa enim 
+                            architecto numquam! Culpa, tempore. Blanditiis, eum?
+                        </p>
+                        <div class="img1">
+                            <i class="fa-solid fa-quote-left fs-1 text-center"></i><br>
+                            <span>Patrick James</span><br>
+                            <img src="./47b58909-54f3-48fe-9b26-cb41e92211fb/client-1.jpg" alt="">
+                        </div>
+                            
+                      </div> 
+                       <div class="col-md-4 col-lg-3 testimonial-one ">
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium consectetur repudiandae 
+                            labore cumque accusantium fugit eius, fugiat nam veritatis minima earum, eveniet esse amet ut repellendus totam adipisci 
+                            reiciendis quis! Commodi sed, 
+                          
+                            
+                        </p>
+                        <div class="img1">
+                            <i class="fa-solid fa-quote-left fs-1 text-center"></i> <br>
+                            <span>Patrick James</span><br>
+                            <img src="./47b58909-54f3-48fe-9b26-cb41e92211fb/client-4.jpg" alt="">
+                        </div>
+                       </div>
+                      <div class="col-md-4 col-lg-3 testimonial-one d-none d-sm-inline-block">
+                        <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Itaque, fugiat!
+                            Lorem ipsum dolor sit amet consectetur 
+                            adipisicing elit. Repellendus reprehenderit, reiciendis possimus culpa enim 
+                            architecto numquam! Culpa, tempore. 
+                            </p>
+                            <br>
+                            <div class="img1">
+                                <i class="fa-solid fa-quote-left fs-1 text-center"></i> <br>
+                                <span>Patrick James</span><br>
+                                <img src="./47b58909-54f3-48fe-9b26-cb41e92211fb/client-5.jpg" alt="">
+                            </div>
+                      </div> 
+                     </div>
+                    </div>
+                    <div class="carousel-item " data-bs-interval="1000">
+                      <div class="row gap-5">
+                        <div class="col-md-4 col-lg-3 offset-1 testimonial-one d-sm-inline-block d-block ">
+                            <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Itaque, fugiat!
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus reprehenderit, reiciendis possimus culpa enim 
+                                architecto numquam! Culpa, tempore. Blanditiis, eum?</p>
+                                <div class="img1">
+                                    <i class="fa-solid fa-quote-left fs-1 text-center"></i><br>
+                                    <span>Patrick James</span><br>
+                                    <img src="./47b58909-54f3-48fe-9b26-cb41e92211fb/client-1.jpg" alt="">
+                                </div>
+                                    
+                        </div>
+                        <div class="col-md-4 col-lg-3 testimonial-one ">
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium consectetur repudiandae 
+                                labore cumque accusantium fugit eius, fugiat nam veritatis minima earum, eveniet esse amet ut repellendus totam adipisci 
+                                reiciendis quis! Commodi sed, 
+                                
+                              
+                                </p>
+                                <div class="img1">
+                                    <i class="fa-solid fa-quote-left fs-1 text-center"></i><br>
+                                    <span>Patrick James</span><br>
+                                    <img src="./47b58909-54f3-48fe-9b26-cb41e92211fb/client-4.jpg" alt="">
+                                </div>
+                        </div>
+                        <div class="col-md-4 col-lg-3 testimonial-one d-none d-sm-inline-block">
+                            <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Itaque, fugiat!
+                                Lorem ipsum dolor sit amet consectetur 
+                                adipisicing elit. Repellendus reprehenderit, reiciendis possimus culpa enim 
+                                architecto numquam! Culpa, tempore. 
+                                </p>
+                                <br>
+                                <div class="img1">
+                                    <i class="fa-solid fa-quote-left fs-1 text-center"></i> <br>
+                                    <span>Patrick James</span><br>
+                                    <img src="./47b58909-54f3-48fe-9b26-cb41e92211fb/client-5.jpg" alt="">
+                                </div>
+                        </div>
+                      </div>
+                      </div>
+                 
+                
+                </div>
+                <button  class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="prev ">
+                  <span class="carousel-control-prev-icon me-5" aria-hidden="true"></span>
+                  <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Next</span>
+                </button>
+              </div>
+        
+            </div>
+          </section>
+
+
+
+
+
+
+          <!-- !----testimonialend---- -->
+
+        <!-- ---divimagestart-- --> 
+ 
+    <div class="divimage d-flex "> 
+        <img class="img1" src="./47b58909-54f3-48fe-9b26-cb41e92211fb/banner-1-4.png" alt=""> 
+        <img class="img2" src="./47b58909-54f3-48fe-9b26-cb41e92211fb/banner-2-2.png" alt=""> 
+    </div> 
+ 
+    <!-- ----divimageend-- -->
+
+                                     
+        <!-- our partners code start -->
+    <div class="container-fluid custom-container">
+        <div class="row row-partner-client">
+            <div class="col-12 col-md-4 text-center"> 
+                <h4>OUR PARTNERS</h4>
+                <h2>    AND CLIENTS</h2>
+            </div>
+            <div class="col-6 col-md-2">
+                <img src="./47b58909-54f3-48fe-9b26-cb41e92211fb/partner-2.png" alt="">
+            </div>
+            <div class="col-6 col-md-2">
+                <img src="./47b58909-54f3-48fe-9b26-cb41e92211fb/partner-1.png" alt="">
+            </div>
+            <div class="col-6 col-md-2">
+                <img src="./47b58909-54f3-48fe-9b26-cb41e92211fb/partner-3.png" alt="">
+            </div>
+            <div class="col-6 col-md-2">
+                <img src="./47b58909-54f3-48fe-9b26-cb41e92211fb/partner-5.png" alt="">
+            </div>
+        </div>
+    </div>
+    <!-- our partners code end -->
+
+    <!-- Footer section Start -->
+    <section id="block-footer">
+        <div class="container p-5">
+            <div class="row">
+                <div class="col-md-4 col-sm-6">
+                    <div class="footer-widget-area">
+                        <div class="widget widget_text p-3">
+                            <h4 class="heading-color">ABOUT US</h4>
+                            <div class="textwidget mt-4 fs-6">
+                                Nullam orci dui, dictum et magna sollicitudin, tempor blandit erat. Maecenas suscipit
+                                tellus sit amet augue placerat fringilla a id lacus. Fusce tincidunt in leo lacinia
+                                condimentum.
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-5 col-sm-6">
+                    <div class="footer-widget-area">
+                        <div class="widget widget_nav_menu p-3">
+                            <h4 class="heading-color">EXPLORE</h4>
+                            <div class="menu-footer-menu-container mt-4">
+                                <div class="row">
+                                    <div class="col-sm-6 fs-6">
+                                        <ul class="menu menu-footer-menu-ul">
+                                            <li class="menu-footer-menu-li">&raquo; Gallery</li>
+                                            <li class="menu-footer-menu-li">&raquo; Testimonials</li>
+                                            <li class="menu-footer-menu-li">&raquo; Services</li>
+                                            <li class="menu-footer-menu-li">&raquo; Shortcodes</li>
+                                        </ul>
+                                    </div>
+                                    <div class="col-sm-6 fs-6">
+                                        <ul class="menu menu-footer-menu-ul">
+                                            <li class="menu-footer-menu-li">&raquo; Contacts</li>
+                                            <li class="menu-footer-menu-li">&raquo; Blog</li>
+                                            <li class="menu-footer-menu-li">&raquo; Get taxi</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3 col-sm-6">
+                    <div class="footer-widget-area">
+                        <div class="widget widget_text p-3">
+                            <h4 class="heading-color">CONTACT US</h4>
+                            <div class="textwidget mt-4 fs-6">
+                                <strong>Address:</strong>
+                                43 2-nd Avenue, New York, NY 29004-7153
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Footer section end -->
+
+    <!-- bottom footer block start -->
+    <footer class="footer-block">
+        <div
+class="container">
+            <p>
+                <a href="#" class="footer-text">Like-themes</a>
+                <span class="text-secondary fs-5">2017 © All Rights Reserved</span>
+                <a href="/" class="footer-text">Terms of use</a>
+            </p>
+        </div>
+    </footer>
+    <!-- bottom footer block end -->
+
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
